@@ -1,3 +1,25 @@
 <div class="content">
-    USER PAGE
-</div>
+        <h1 class="info-header">User</h1>
+        <ul class="unstyled-list">
+          <li class="list-item-style">
+            <h4 class="list-item-header">
+                Name: <span class="unbold">{{ user.name }}  <a href="" ><i class="material-icons md-light">face</i></a></span>
+            </h4>
+            <h4 class="list-item-header">
+                Username: <span class="unbold">{{ user.username }}</span>
+            </h4>
+            <h4 class="list-item-header">
+                Email: <span class="unbold">{{ user.email }}</span>
+            </h4>
+            <h4 class="list-item-header">
+                Address: <span class="unbold">{{ user.address.street }}, {{ user.address.city }} {{user.address.zipcode}}</span>
+            </h4>
+            <h4 class="list-item-header">
+                Phone: <span class="unbold">{{ user.phone }}</span>
+            </h4>
+            <h4 class="list-item-header">
+                Website: <span class="unbold">{{ user.website }}</span>
+            </h4>
+          </li>
+        </ul>
+      </div>

@@ -5,7 +5,7 @@ import { PostsComponent } from './posts/posts.component';
 import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
-  {path: 'users/:id', component: UserComponent},
+  {path: 'users/:userid', component: UserComponent},
   {path: 'users', component: UsersComponent},
   {path: 'posts', component: PostsComponent},
   {path: '', redirectTo: '/users', pathMatch:"full"}

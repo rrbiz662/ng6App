@@ -3,7 +3,7 @@
   <ul class="unstyled-list">
     <li class="list-item-style" *ngFor="let user of users">
       <h4 class="list-item-header">
-        Name: <span class="unbold">{{ user.name }}  <a href="" ><i class="material-icons md-light">face</i></a></span>
+        Name: <span class="unbold">{{ user.name }}  <a routerLink="/users/{{ user.id }}" ><i class="material-icons md-light">face</i></a></span>
       </h4>
       <h4 class="list-item-header">
         Username: <span class="unbold">{{ user.username }}</span>
