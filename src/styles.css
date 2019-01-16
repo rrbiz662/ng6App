@@ -2,4 +2,40 @@
 body{
     margin: 0;
     padding: 0;
+    color: aliceblue;
+}
+
+.content{
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+.info-header{
+    margin-top: 0;
+    color: rgb(51, 40, 40);;
+}
+
+.unstyled-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item-style{
+    margin-top: 5px;
+    border-style: solid;
+    background-color: rgb(51, 40, 40);
+    padding: 5px 10px;
+}
+
+.list-item-header{
+    margin: .5em 0;
+}
+
+.material-icons.md-light{
+    color: aliceblue;
+}
+
+.unbold{
+    font-weight: normal;
 }

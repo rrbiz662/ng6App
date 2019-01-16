@@ -11,4 +11,12 @@ export class DataService {
   getUsers(){
     return this.http.get('https://jsonplaceholder.typicode.com/users');
   }
+
+  getPosts(){
+    return this.http.get('https://jsonplaceholder.typicode.com/posts');
+  }
+
+  getUser(id: any){
+    return this.http.get('https://jsonplaceholder.typicode.com/users/' + id);
+  }
 }

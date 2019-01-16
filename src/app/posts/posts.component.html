@@ -1,3 +1,13 @@
-<div class="posts-info">
-    Posts PAGE
+<div class="content">
+    <h1 class="info-header">Posts</h1>
+    <ul class="unstyled-list">
+        <li class="list-item-style" *ngFor="let post of posts">
+            <!--Display username by matching UserIds from posts to users.-->
+            <h4  class="list-item-header" *ngFor="let user of users">
+                <span *ngIf="post.userId == user.id">{{ user.username }}</span>
+            </h4>
+            <h5 class="list-item-header">{{ post.title }}</h5>
+            <main>{{ post.body }}</main>
+        </li>
+    </ul>
 </div>

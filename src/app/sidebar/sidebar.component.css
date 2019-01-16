@@ -1,24 +1,14 @@
 /*Sidebar CSS*/
-
 .sidenav{
     height: 100%;
     width: 50px;
     position: fixed;
-    background-color: gray;
+    background-color: rgb(51, 40, 40);
     overflow-x: hidden;
     text-align: center;
-}
-
-.nav-list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-item{
     padding-top: 10px;
 }
 
-.material-icons.md-light{
-    color: aliceblue;
-}
